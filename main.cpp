@@ -2,6 +2,10 @@
 // To compile:
 // g++ -Wall -O2 -g main.cpp -o main -lGL -lSDL2
 //
+// Run:
+// ./main 55   # Works fine
+// ./main 56   # Does not render
+//
 
 #define GL_GLEXT_PROTOTYPES
 #define GL3_PROTOTYPES 1
